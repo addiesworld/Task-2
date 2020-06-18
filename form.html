@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task 2 - Contact Form</title>
+        <link rel="stylesheet" href="css/form.css">
+    </head>
+    <body>
+        <div>
+            <h1>Task 1 Contact Form</h1>
+        </div>
+        <div class="contact-us-title">
+            <h2 class="contact-h1">CONTACT US</h2>
+        </div>
+        <div class="contact-us-cont">
+            <div class="contact-us-1">
+                <p class="contact-p name-p">Name <span class="required">*</span></p>
+                <input class="data-entry de-name" name="keyword" type="text" value="">
+                <p class="contact-p phone-p">Phone Number <span class="required">*</span></p>
+                <input class="data-entry de-phone" name="keyword" type="tel" value="">
+            </div>
+            <div class="contact-us-2">
+                <p class="contact-p email-p">Email <span class="required">*</span></p>
+                <input class="data-entry de-email" name="keyword" type="email" value="">
+                <p class="contact-p subject-p">Subject</p>
+                <input class="data-entry de-subject" name="keyword" type="text" value="">
+            </div>
+            <div class="contact-message">
+                <p class="contact-p message-p">Message <span class="required">*</span></p>
+                <input class="data-entry de-message" name="keyword" type="text" value="">
+            </div>
+            <div class="privacy-data-entry-div">
+                <button class="privacy-button"><a href="#">SUBMIT &rarr;</a></button>
+            </div>
+        </div>
+        <div>
+            <h1>Task 2 Recreation Using /form and Input Types</h1>
+        </div>
+        <form action="#">
+            <label class="name-p" for="name">Name <span class="required">*</span></label><br>
+            <input type="text" id="name" name="name" onfocus="this.value=''" value="Enter name here..."><br>
+            <label class="email-p-2" for="email">Email <span class="required">*</span></label><br>
+            <input type="text" id="email" name="email" onfocus="this.value=''" value="Enter email here..."><br>
+            <label class="name-p" for="phone">Phone Number <span class="required">*</span></label><br>
+            <input type="tel" id="phone" name="phone" onfocus="this.value=''" value="Enter phone number here..."><br>
+            <label class="email-p-2" for="subject">Subject</label><br>
+            <input type="text" id="subject" name="subject" onfocus="this.value=''" value="Enter subject here..."><br>
+            <label class="email-p-2" for="message">Message <span class="required">*</span></label><br>
+            <input type="text" id="message-box" name="message" onfocus="this.value=''" value="Enter message here..."><br><br>
+            <input type="submit" value="SUBMIT &rarr;" id="submit-button">
+        </form>
+    </body>
+</html>
